@@ -55,3 +55,4 @@ For this you can use the resources of you computer, but also you can use a noteb
 For more information the original notebook is available [here](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb).
 
 
+To use other versions of YOLO, you can consult the [roboflow repository](https://github.com/roboflow/notebooks).
