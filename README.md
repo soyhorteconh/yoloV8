@@ -25,4 +25,18 @@ python3 test1.py
 
 - [Dataset](https://universe.roboflow.com/dishwasher-20/dishwashe2.0/dataset/2)
 
+## How to use this dataset? ##
+1. Select the format of the dataset, in the case of this experiment "YOLOv8" format was used.
+2. Select the format to download the dataset, the option "show download code" is better.
+3. Code like this one will appear
+   ```
+   !pip install roboflow
+
+   from roboflow import Roboflow
+   rf = Roboflow(api_key="z5YM9mE6n1LKea0KWNgF")
+   project = rf.workspace("dishwasher-20").project("dishwashe2.0")
+   dataset = project.version(2).download("yolov8")
+   ```
+
+
 
