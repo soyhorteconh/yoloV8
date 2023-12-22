@@ -21,7 +21,8 @@ python3 test1.py
 ```
 
 ## How to generate datasets models? ##
-[Roboflow](https://roboflow.com/universe) was used to generate the dataset with images from other datasets, but also this dataset was improved with images from specific objects which were used for the experiments.
+[Roboflow](https://roboflow.com/universe) is platform very useful to detect create datasets, it'll allow you to upload images, videos to separete in different frames, and also you can make the labeling of images for each object that you want to detect.
+Fot this experiment Rboflow was used to generate the dataset with images from other datasets, but also this dataset was improved with images from specific objects which were used for the experiments.
 
 - [Dataset](https://universe.roboflow.com/dishwasher-20/dishwashe2.0/dataset/2)
 
@@ -37,6 +38,11 @@ python3 test1.py
    project = rf.workspace("dishwasher-20").project("dishwashe2.0")
    dataset = project.version(2).download("yolov8")
    ```
+   This code will allow you to download only the dataset.
+
+## How to train the model? ##
+
+
 
 
 
