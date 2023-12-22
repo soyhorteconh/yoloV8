@@ -28,6 +28,9 @@ Fot this experiment Rboflow was used to generate the dataset with images from ot
 
 - [Dataset](https://universe.roboflow.com/dishwasher-20/dishwashe2.0/dataset/2)
 
+
+  You can gnerate your own datasets, just creating another project, or with projects that are available in the platform.
+
 ### How to use this dataset? ###
 1. Select the format of the dataset, in the case of this experiment "YOLOv8" format was used.
 2. Select the format to download the dataset, the option "show download code" is better.
