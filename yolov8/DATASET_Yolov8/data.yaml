@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Bowl', 'Fork', 'Glass', 'Knife', 'Plate', 'Spoon', 'cup', 'dishwasher', 'pot']
+
+roboflow:
+  workspace: dishwasher-20
+  project: dishwashe2.0
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dishwasher-20/dishwashe2.0/dataset/2
