@@ -56,3 +56,6 @@ For more information the original notebook is available [here](https://colab.res
 
 
 To use other versions of YOLO, you can consult the [roboflow repository](https://github.com/roboflow/notebooks).
+
+## Results ##
+Results of this experiments are available [here](https://drive.google.com/drive/folders/1eVDfUNC-NxxBywG_TeZSQrCmR_o2-eCk?usp=sharing).
