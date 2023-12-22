@@ -42,6 +42,8 @@ Fot this experiment Rboflow was used to generate the dataset with images from ot
 
 ## How to train the model? ##
 For this you can use the resources of you computer, but also you can use a notebook of google colab (which is easier in the case of your computer doesn't have the requirements), also in the case of this experiment this was made using google colab.
+
+
 Google colab available [here](https://colab.research.google.com/drive/1Mu9HaywSiQ-tBqoxkx9v5uMfhu1692H5?usp=sharing).
 
 For more information the original notebook is available [here](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb).
